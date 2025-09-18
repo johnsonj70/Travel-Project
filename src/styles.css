@@ -1,17 +1,16 @@
 .container {
-    max-width: 1400px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
 body {
-    background-color: #E6E6FF;
+    background: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9));
     font-family: 'Poppins';
 }
 
 header {
-  max-width: 1800px;
-  margin: 0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+  max-width: 2000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/ocho-rios-bay.jpg");
   background-size: cover;
   background-position: center;
@@ -62,16 +61,70 @@ header a {
     border-radius: 5px;
 }
 
-img {
-    max-width: 465px;
-    max-height: 110px;
-}
 
 footer {
-    text-align: center;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)),
+    url("../images/ocho-rios-bay.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding: 100px 0;
 }
 
-@media (max-width: 900px) {
+footer a {
+  color: white;
+  opacity: 0.7;
+  
+}
+
+footer h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+}
+
+h4 {
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 25px;
+    line-height: 25px;
+    color: white;
+}
+
+h4 a {
+    color: white;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 25px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    opacity: 0.7;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 24px;
+}
+
+section {
+    max-width: 2000px;
+    margin: 0;
+}
+
+@media (max-width: 960px) {
     header {
         padding: 130px 0;
     }
@@ -93,4 +146,9 @@ footer {
         padding: 8px 16px;
 
     }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
 }
