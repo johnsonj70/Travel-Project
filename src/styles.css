@@ -192,7 +192,7 @@ section.secondary {
 
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   object-fit: cover;
   display: block;
   margin-top: 0;
@@ -245,6 +245,15 @@ section.secondary {
     padding: 20px 20px 20px;
 }
 
+.card-header.grid {
+    grid-gap: 0;
+}
+
+.embed {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
 .btn {
     display: block;
     color: white;
@@ -294,6 +303,10 @@ section.secondary {
         font-size: 20px;
     }
 
+    main h4 {
+        font-size: 14px;
+    }
+
     .secondary h4 {
         font-size: 15px;
     }
@@ -313,5 +326,9 @@ section.secondary {
 
     .card-header img {
         display: none;
+    }
+
+    .embed {
+        aspect-ratio: 16 / 9;
     }
 }
