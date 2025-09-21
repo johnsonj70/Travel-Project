@@ -26,6 +26,10 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-2-columns img {
+    filter:  hue-rotate(18deg) saturate(106%) sepia(35%);
+}
+
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -148,7 +152,7 @@ figcaption {
   color: white;
   padding: 3px;
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 main {
