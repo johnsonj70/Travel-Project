@@ -1,344 +1,280 @@
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
+body {
+  font-family: "Poppins", sans-serif;
+  background: #00001A;
 }
 
-body {
-    background: #00001A;
-    font-family: 'Poppins';
-    font-style: normal;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
+
+.instagram-embeds {
+  margin: 30px 0;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-body h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #00001A;
+  margin: 0;
+}
+
+.card-footer {
+  margin-top: 40px;
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #00001A;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+section.secondary {
+  background: #f8f8f8;
 }
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/ocho-rios-bay.jpg");
-  background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   text-align: center;
   padding: 200px 0;
 }
 
-header h1, h2, h3 {
-  color: white;
-}
-
 header h1 {
-    font-size: 96px;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 30px 0;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
 }
 
 header h2 {
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
 }
 
 header h3 {
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 1.5;
-    letter-spacing: 5px;
-    margin: 0;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 header a {
-    font-size: 18px;
-    font-weight: 900;
-    color: #00001A;
-    margin-top: 32px;
-    line-height: 1.5;
-    letter-spacing: 3px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: white; 
-    display: inline-block;
-    padding: 16px 32px;
-    border-radius: 5px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #00001A;
+  padding: 16px 32px;
+  border-radius: 5px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
+}
+
+figcaption {
+  background-color: #00001A;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  font-size: 15px;
 }
 
 main {
-    background-color: white;
+  background-color: white;
 }
 
 main h2 {
-    font-weight: 700;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    line-height: 1.5;
-    opacity: 0.3;
-    color: #204440;
-    margin: 0;
-    margin-bottom: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #00001A;
+  opacity: 0.3;
+  text-transform: uppercase;
 }
 
 main h3 {
-    font-weight: 700;
-    font-size: 36px;
-    color: #00001A;
-    margin-top: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #00001A;
+  margin: 0;
 }
 
 main h4 {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 1.5;
-    text-align: center;
-    opacity: 0.6;
-    color: #204440;
-    margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #00001A;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0;
+  line-height: 1;
+  color: #00001A;
 }
 
 main p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    opacity: 0.7;
-    color: #00001A;
-}
-
-.text-center {
-    text-align: center;
-}
-
-img {
-    padding: 0;
-    margin-top: 20px;
-    object-fit: cover;
-    justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #00001A;
+  opacity: 0.7;
 }
 
 footer {
-    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)),
-    url("../images/ocho-rios-bay.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/ocho-rios-boats.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
 }
 
 footer a {
   color: white;
-}
-
-footer h3 {
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 25px;
-    color: white;
-}
-
-footer ul {
-    padding: 0;
-}
-
-footer li {
-    list-style: none;
-    line-height: 2;
-    margin: 0;
-    padding: 0;
-}
-
-footer p {
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    line-height: 24px;
-    margin-right: 20px;
-}
-
-footer a {
-    line-height: 1.5;
-    text-align: center;
-}
-
-section {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 100px;
-}
-
-section.secondary {
-    background: #f8f8f8;
-}
-
-.secondary h3 {
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 40px;
-    color: #00001A;
-}
-
-.secondary h4 {
-    font-size: 15px;
-    font-weight: 100;
-    line-height: 25px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-    opacity: 0.9;
-    color: #00001A;
-}
-
-.img-responsive {
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  margin-top: 0;
-}
-
-.grid {
-    display: grid;
-    grid-gap: 64px;
-}
-
-.grid-two-columns {
-    grid-template-columns: 1fr 1fr;
-}
-
-.grid-three-columns {
-  grid-template-columns: 1.5fr 1.25fr 1.25fr;
-}
-
-.secondary-3-column-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.card {
-    background: white;
-}
-
-.card h4 {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.5;
-    color: #00001A;
-}
-
-.card h5 {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #00001A;
-}
-
-.card-body {
-    padding: 30px;
-}
-
-.card-footer {
-    padding: 20px 20px 20px;
-}
-
-.card-header.grid {
-    grid-gap: 0;
-}
-
-.embed {
-    margin-top: 10px;
-
-    width: 100%;
-    aspect-ratio: 1 / 1;
-}
-
-.btn {
-    display: block;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 16px;
-    border-radius: 5px;
-    background-color: #00001A;
-}
-
-.iframe {
-    
-    width: 353px;
-    height: 625px;
+  opacity: 0.6;
 }
 
 @media (max-width: 960px) {
-    header {
-        max-width: 960px;
-        padding: 60px 0;
-    }
+  header {
+    padding: 60px 0;
+  }
 
-    .grid {
-        max-width: 960px;
-    }
+  header h1 {
+    font-size: 48px;
+  }
 
-    .grid-two-columns h2, h3 {
-        text-align: center;
-    }
+  header h2 {
+    font-size: 20px;
+  }
 
-    header h1 {
-        font-size: 48px;
-    }
+  header h3 {
+    font-size: 12px;
+  }
 
-    header h2 {
-        font-size: 20px;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
 
-    header h3 {
-        font-size: 14px;
-    }
+  section {
+    padding: 30px;
+  }
 
-    header a {
-        font-size: 10px;
-        padding: 8px 16px;
-    }
+  .card-header img {
+    display: none;
+  }
 
-    main h3 {
-        font-size: 20px;
-    }
+  .card-body h4 {
+    font-size: 16px;
+  }
 
-    main h4 {
-        font-size: 14px;
-    }
-
-    .secondary h4 {
-        font-size: 15px;
-    }
-
-    .secondary h3 {
-        font-size: 20px;
-    }
-
-    .grid {
-        grid-template-columns: 1fr;
-        grid-gap: 32px;
-    }
-
-    section {
-        padding: 30px;
-    }
-
-    .card-header img {
-        display: none;
-    }
-
-    .embed {
-        aspect-ratio: 16 / 9;
-    }
-
-    .instagram-embeds {
-        margin: 30px 0;
-    }
-
-    footer p {
-        text-align: center;
-    }
-
-    footer li {
-        text-align: center;
-    }
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
 }
